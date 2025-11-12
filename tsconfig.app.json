@@ -8,13 +8,15 @@
     "jsx": "react-jsx",
     "module": "ESNext",
     "target": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node"]
   },
   "include": ["src"],
   "references": []
